@@ -2,6 +2,6 @@ import styled from "styled-components";
 
 export const Logo = styled.div`
 
-background-color: purple;
+background-color: #460b46 ;
 
 `
