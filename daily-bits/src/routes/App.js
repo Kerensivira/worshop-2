@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BrowserRouter, Routes } from 'react-router-dom';
 =======
 import { BrowserRouter, Route } from 'react-router-dom';
+=======
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+>>>>>>> b00231973c70fff050a3718407a21cd7d367958b
 import FooterCont from '../Components/footer';
 >>>>>>> f9114be8a3fb0397c3d637ca09d8fce85215175b
 import { Home } from '../Components/Home';
