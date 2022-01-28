@@ -18,10 +18,7 @@ export const HomeStyles = () => {
           </Boton-Google>
 
           <Crear-Cuenta>
-          <label for="email" placeholder='Ingresa tu e-mail'></label>
-
-       <input type="email" pattern=".User@email.com" size="30" required>
-
+          <input type="email" pattern=".User@email.com"/>
           </Crear-Cuenta>
 
   </div>);
