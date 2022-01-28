@@ -3,7 +3,7 @@ import React from 'react';
 export const Login = () => {
   const [datos, setDatos] = useState()
 
-  
+
 
   return 
   (<div>
@@ -18,7 +18,7 @@ export const Login = () => {
           </Iniciar-Sesion>
 
           <Ingrese-correo>
-          <input type="email" pattern=".User@email.com"/>
+          <input type="text" pattern=".User@email.com"/>
           <input type="Password" pattern= {6.}/>
           </Ingrese-correo>
 

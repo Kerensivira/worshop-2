@@ -26,8 +26,6 @@ const HTML = () => {
                         <img src="https://res.cloudinary.com/dlkynkfvq/image/upload/v1643380361/workshop-2/PersonajePreguntas_gh645f.png" alt=" " />
 
                         <h2>a.pregunta</h2>
-                    
-
                     </div>
                 ))}
 

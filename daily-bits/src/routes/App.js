@@ -30,7 +30,7 @@ function App() {
       <Logo/>
     </div>
   );
->>>>>>> 27351bd1962eb2c41ecd76eb6490a7e00450d6ec
+
 }
 
-
+}
