@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import FooterCont from '../Components/footer';
 import { Home } from '../Components/Home';
 import { Login } from '../Components/Login';

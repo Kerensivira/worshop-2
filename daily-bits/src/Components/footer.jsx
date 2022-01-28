@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImgenIcon, Item } from '../Styles/StyledFooter';
 
-const FooterCont = () => {
+export const FooterCont = () => {
   return (
   <footer>
       <Item>
@@ -20,4 +20,4 @@ const FooterCont = () => {
   );
 };
 
-export default FooterCont;
+
