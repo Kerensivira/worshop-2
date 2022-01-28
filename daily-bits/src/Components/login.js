@@ -18,7 +18,7 @@ export const Login = () => {
 
           <Ingrese-correo>
           <input type="email" pattern=".User@email.com"/>
-          <input type="Password" pattern= {6.}>
+          <input type="Password" pattern= {6.}/>
           </Ingrese-correo>
 
           <Olvidar>
