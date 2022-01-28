@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const HomeStyles = () => {
+export const Login = () => {
   return 
   (<div>
 
@@ -10,7 +10,7 @@ export const HomeStyles = () => {
       </Logo>
 
       <Iniciar-Sesion>
-<h1>Iniciar Sesión</h1>
+    <h1>Iniciar Sesión</h1>
           </Iniciar-Sesion>
 
           <Boton-Google>
