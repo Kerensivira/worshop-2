@@ -2,6 +2,7 @@ import React from "react";
 import { Logo, Iniciar, Ingrese, Olvidar, CrearCuenta} from "../Styles/HomeStyles";
 
 export const Login = () => {
+<<<<<<< HEAD
   return(
 
 <div>
@@ -9,6 +10,9 @@ export const Login = () => {
       <h1>(..)</h1>
       <h3>Daily Bits.</h3>
     </Logo>
+=======
+  const [datos, setDatos] = useState()
+>>>>>>> f9114be8a3fb0397c3d637ca09d8fce85215175b
 
     <Iniciar>
       <h1>Iniciar Sesión</h1>
