@@ -10,10 +10,6 @@ function App() {
       <Login />
       <Home />
       <Logo/>
-
-=======
-      <Home/>
-      <Logo/>
     </div>
   );
 }
