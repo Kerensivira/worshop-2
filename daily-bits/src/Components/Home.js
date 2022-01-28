@@ -1,4 +1,6 @@
 import React from 'react';
+import { Logo } from '../Styles/HomeStyles';
+
 
 export const Home = () => {
   return 
