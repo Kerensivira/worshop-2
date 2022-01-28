@@ -17,8 +17,16 @@ export const HomeStyles = () => {
           <Link to="#"><Button type='button'>Continuar con Google.</Button></Link> <br></br>
           </Boton-Google>
 
-          <Crear-Cuenta>
+          <Ingrese-correo>
           <input type="email" pattern=".User@email.com"/>
+          </Ingrese-correo>
+
+          <Olvidar>
+           <p>¿Olvidó su contraseña?</p><a href='#'alt="Ingrese aquí."/>
+          </Olvidar>
+
+          <Crear-Cuenta>
+            <p>Aún no tienes cuenta</p><a href='#' alt="Inscribirse."></a>
           </Crear-Cuenta>
 
   </div>);
