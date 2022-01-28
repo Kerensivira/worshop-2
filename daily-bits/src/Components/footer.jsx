@@ -1,17 +1,21 @@
 import React from 'react';
+import { ImgenIcon, Item } from '../Styles/StyledFooter';
 
 const footer = () => {
   return (
   <footer>
-      <div>
+      <Item>
+          <ImgenIcon src="https://res.cloudinary.com/dlkynkfvq/image/upload/v1643387672/workshop-2/HomeIcon_b6nz2v.png" alt=" " />
           <p>Home</p>
-      </div>
-      <div>
+      </Item>
+      <Item>
+          <ImgenIcon src="https://res.cloudinary.com/dlkynkfvq/image/upload/v1643387682/workshop-2/EstadisticasLogo_nq71an.png" alt=" " />
           <p>Estadisticas</p>
-      </div>
-      <div>
+      </Item>
+      <Item>
+          <ImgenIcon src="https://res.cloudinary.com/dlkynkfvq/image/upload/v1643387653/workshop-2/PerfilIcon_hocfcf.png" alt=" " />
           <p>Perfil</p>
-      </div>
+      </Item>
   </footer>
   );
 };
