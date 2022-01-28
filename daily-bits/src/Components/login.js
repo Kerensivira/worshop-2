@@ -16,12 +16,9 @@ export const Login = () => {
     <h1>Iniciar Sesión</h1>
           </Iniciar-Sesion>
 
-          <Boton-Google>
-          <Link to="#"><Button type='button'>Continuar con Google.</Button></Link> <br></br>
-          </Boton-Google>
-
           <Ingrese-correo>
           <input type="email" pattern=".User@email.com"/>
+          <input type="Password" pattern= {6.}>
           </Ingrese-correo>
 
           <Olvidar>
