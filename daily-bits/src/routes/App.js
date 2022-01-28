@@ -1,4 +1,3 @@
-import Logo from './logo.svg';
 import { Home } from '../Components/Home';
 
 function App() {
