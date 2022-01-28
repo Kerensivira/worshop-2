@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import { Logo, Iniciar, Ingrese, Olvidar, CrearCuenta} from "../Styles/HomeStyles";
 
 export const Login = () => {
   const [datos, setDatos] = useState()
 
+<<<<<<< HEAD
 
 
   return 
@@ -21,17 +23,26 @@ export const Login = () => {
           <input type="text" pattern=".User@email.com"/>
           <input type="Password" pattern= {6.}/>
           </Ingrese-correo>
+=======
+  return(
+>>>>>>> 95acde89b509550516f89033189f97d73a20f7a4
 
-          <Olvidar>
-           <p>¿Olvidó su contraseña?</p><a href='#'alt="Ingrese aquí."/>
-          </Olvidar>
+    <Ingrese>
+      <input type="email" pattern=".User@email.com" />
+      <input type="Password" pattern={6} />
+    </Ingrese>
 
-          <Crear-Cuenta>
-            <p>Aún no tienes cuenta</p><a href='#' alt="Inscribirse."></a>
-          </Crear-Cuenta>
+    <Olvidar>
+      <p>¿Olvidó su contraseña?</p>
+      <a href="#" alt="Ingrese aquí." />
+    </Olvidar>
 
-  </div>);
-
-
-
+    <CrearCuenta>
+      <p>Aún no tienes cuenta</p>
+      <a href="#" alt="Inscribirse."></a>
+    </CrearCuenta>
+  </div>
+  
+  )
+  
 };
