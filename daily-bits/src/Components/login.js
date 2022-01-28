@@ -4,7 +4,7 @@ import { Logo, Iniciar, Ingrese, Olvidar, CrearCuenta} from "../Styles/HomeStyle
 export const Login = () => {
   const [datos, setDatos] = useState()
 
-<<<<<<< HEAD
+
 
 
   return 
@@ -23,9 +23,9 @@ export const Login = () => {
           <input type="text" pattern=".User@email.com"/>
           <input type="Password" pattern= {6.}/>
           </Ingrese-correo>
-=======
+
   return(
->>>>>>> 95acde89b509550516f89033189f97d73a20f7a4
+
 
     <Ingrese>
       <input type="email" pattern=".User@email.com" />
